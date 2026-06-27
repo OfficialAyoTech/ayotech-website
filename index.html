@@ -2819,15 +2819,9 @@ function handleNewsletter() {
 
 <!-- ===== AYOTECH BOTPRESS WIDGET ===== -->
 <style>
-  /* Move Botpress bubble up so it sits above WhatsApp button */
-  #bp-web-widget-container {
+  /* Move WhatsApp button up to make room for Botpress below */
+  .wa-float {
     bottom: 90px !important;
-    right: 20px !important;
-    z-index: 99998 !important;
-  }
-  #bp-web-widget {
-    bottom: 90px !important;
-    right: 20px !important;
   }
 </style>
 <script src="https://cdn.botpress.cloud/webchat/v3.6/inject.js"></script>
